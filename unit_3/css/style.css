@@ -1,0 +1,31 @@
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: helvetica; Arial; sans-serif;
+	display: block;
+	margin: 8px;
+}
+
+p {
+	font-size: 16px; 
+}
+
+.important {
+		font-size: 18px; 
+}
+
+a {
+	text-decoration: none;
+	color: #a0305d;
+	font-weight: 600;
+}
+
+nav a {
+
+	margin-right: 10px;
+}
+
+footer {
+	background-color: #cccecd;
+	padding: 20px;
+}
