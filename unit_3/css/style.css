@@ -1,17 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab|Italiana');
+
+
+#intro {
+	background: url(../images/welcome_banner.jpg);
+	width: 1802px;
+	height: 810px;
+	background-repeat: no-repeat;
+	font-size: 1.4em;
+	/*font-weight: 600;*/
+}
+
 body {
 	background-color: #fff;
 	color: #000;
-	font-family: helvetica; Arial; sans-serif;
+	font-family: 'Antic Slab', serif;
+	/*font-family: helvetica, Arial, sans-serif;*/
+	font-size: 17px; /*1em = 17px*/
+	font-weight: 300;
+	line-height: 1.3em;
 	display: block;
 	margin: 8px;
 }
 
-p {
-	font-size: 16px; 
-}
+h1 {
+	font-family: 'Italiana', serif;
+	font-size: 2em;
+}  
 
-.important {
-		font-size: 18px; 
+h2, h4 {
+	font-family: 'Italiana', serif;
 }
 
 a {
@@ -20,12 +37,63 @@ a {
 	font-weight: 600;
 }
 
+a:hover { 
+  color: black;
+}
+
 nav a {
 
 	margin-right: 10px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+blockquote {
+  text-indent: -0.8em;
 }
 
 footer {
 	background-color: #cccecd;
 	padding: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  font-family: 'Antic Slab', serif;
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #888;
+  color: white;
+  font-family: 'Antic Slab', serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker color */
+input[type=submit]:hover {
+  background-color: #666;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  width: 500px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 20px 10px;
 }
