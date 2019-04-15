@@ -11,20 +11,23 @@
 }
 
 body {
-	background-color: #fff;
-	color: #000;
+	color: #222;
 	font-family: 'Antic Slab', serif;
 	/*font-family: helvetica, Arial, sans-serif;*/
 	font-size: 17px; /*1em = 17px*/
 	font-weight: 300;
-	line-height: 1.3em;
-	display: block;
-	margin: 8px;
+	line-height: 1.3;
 }
+
+section {
+	padding: 5em 0;
+}
+
 
 h1 {
 	font-family: 'Italiana', serif;
 	font-size: 2em;
+	line-height: 1.3;
 }  
 
 h2, h4 {
