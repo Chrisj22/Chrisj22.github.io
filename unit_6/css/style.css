@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Antic+Slab|Italiana');
 
+/* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}*/
+
 body {
 	color: #222;
 	font-family: 'Antic Slab', serif;
@@ -10,17 +16,13 @@ body {
 }
 
 header {
-	background-color: #ffed74;
-    border: 1px black solid;
-    padding: 20px;
+	padding: 20px;
     margin: 0 20px;
     float: left;
 }
 
 nav {
-	background-color: #e8c66a;
-    border: 1px black solid;
-    padding: 30px;
+	padding: 30px;
     margin: 0 20px;
     float: right;
 }
@@ -34,9 +36,7 @@ nav a {
 }
 
 section {
-	background-color: #ffe2b8;
-    border: 1px black solid;
-    padding: 20px;
+	padding: 20px;
 	margin: 0 20px;
 	/*padding: 5em 0;*/
 }
@@ -77,16 +77,25 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-family: 'Italiana', serif;
   font-size: 16px;
-  font-family: 'Antic Slab', serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
 }
 
+button a {
+	color: #fff;
+	font-family: 'Italiana', serif;
+  	font-size: 16px;
+}
+
+button:hover { 
+  background-color: #666;
+  color: #fff;
+}
+
 footer {
-	background-color: #ff957e;
-    border: 1px black solid;
     padding: 20px;
     margin: 0 20px;
 	/*background-color: #cccecd;
@@ -97,6 +106,7 @@ footer {
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   font-family: 'Antic Slab', serif;
+  font-size: 15px;
   padding: 12px; /* Some padding */  
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -110,9 +120,9 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color: #888;
   color: white;
-  font-family: 'Antic Slab', serif;
+  font-family: 'Italiana', serif;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -128,7 +138,6 @@ input[type=submit]:hover {
 	width: 1900px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #ffe2b8;
 }
 
 #head {}
@@ -139,8 +148,6 @@ input[type=submit]:hover {
 	height: 810px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-color: #ffe2b8;
-    border: 1px black solid;
     padding: 20px 0;
 	font-size: 1.4em;
 	text-align: right;
@@ -148,29 +155,33 @@ input[type=submit]:hover {
 	/*font-weight: 600;*/
 }
 
+#intro-text {
+	padding-top: 106px;
+	padding-right: 98px;
+}
+
 #about {
-	background-color: red;
+	width: 900px;
+	margin: auto;
 	/*background-color: #ffe2b8;
     border: 1px black solid;
     padding: 200 20px;*/
 }
 
 #about-image {
-	background-color: #ffc675;
-	width: 50%;
+	width: 40%;
+	margin: 30 0px;
 	float: left;
 }
 
 #about-text {
-	background-color: #ffc675;
-    width: 50%;
+    width: 60%;
     padding-top: 68px;
+    margin: 30 0px;
     float: right;
 }
 
 #gallery {
-	background-color: #ffe2b8;
-    border: 1px black solid;
     padding: 20 0px;
     clear: both;
     float: left;
@@ -191,7 +202,6 @@ input[type=submit]:hover {
 }
 
 #flavour {
-	background-color: #ffc675;
     padding: 20 0px;
     width: 50%;
     float: left;
@@ -202,7 +212,6 @@ input[type=submit]:hover {
 }
 
 #faq {
-	background-color: #ffc675;
     padding: 20 0px;
     width: 50%;
     float: right;
@@ -220,18 +229,12 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
-	/*
-	width: 500px;
+	width: 800px;
 	border-radius: 5px;
 	background-color: #f2f2f2;
 	padding: 20px;
-	margin: 20px 10px; 
-	*/
-
-  	background-color: #ffe2b8;
-    border: 1px black solid;
-    padding: 20px;
-    margin: 0 20px;
+	margin: 20px auto; 
+	background-color: #f2f2f2;
 }
 
 .clearfix:after {
@@ -241,4 +244,9 @@ input[type=submit]:hover {
 	font-size: 0;
 	height: 0;
 	clear: both;
+}
+
+.button-align {
+	margin-left: auto;
+	margin-right: auto;
 }
