@@ -228,6 +228,9 @@ input[type=submit]:hover {
 
 .clearfix:after {
 	display: block;
-	content: "hello";
+	visibility: hidden;
+	content: " ";
+	font-size: 0;
+	height: 0;
 	clear: both;
 }
