@@ -9,8 +9,7 @@
 body {
 	color: #222;
 	font-family: 'Antic Slab', serif;
-	/*font-family: helvetica, Arial, sans-serif;*/
-	font-size: 17px; /*1em = 17px*/
+	font-size: 18px; /*1em = 18px*/
 	font-weight: 300;
 	line-height: 1.3;
 }
@@ -29,10 +28,14 @@ nav {
 
 nav a {
 	font-family: 'Italiana', serif;
-	margin-right: 10px;
+	margin-left: 40px;
 	font-weight: 700;
 	font-size: 1.2em;
 	letter-spacing: 1px;
+}
+
+nav a:hover{
+	border-bottom: 1px solid #222;
 }
 
 section {
@@ -52,6 +55,12 @@ h2, h4 {
 	font-family: 'Italiana', serif;
 	font-weight: bold;
 	font-size: 1.5em;
+}
+
+hr {
+	width: 4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 a {
@@ -98,6 +107,7 @@ button:hover {
 footer {
     padding: 20px;
     margin: 0 20px;
+    text-align: center;
 	/*background-color: #cccecd;
 	padding: 20px;*/
 }
@@ -148,7 +158,7 @@ input[type=submit]:hover {
 	height: 810px;
 	background-position: center;
 	background-repeat: no-repeat;
-    padding: 20px 0;
+    padding: 20px 0px 100px 0px;
 	font-size: 1.4em;
 	text-align: right;
 	clear: both;
@@ -163,9 +173,14 @@ input[type=submit]:hover {
 #about {
 	width: 900px;
 	margin: auto;
+	padding: 100px 0px;
 	/*background-color: #ffe2b8;
     border: 1px black solid;
     padding: 200 20px;*/
+}
+
+#about-head {
+	text-align: center;
 }
 
 #about-image {
@@ -176,15 +191,15 @@ input[type=submit]:hover {
 
 #about-text {
     width: 60%;
-    padding-top: 68px;
     margin: 30 0px;
     float: right;
 }
 
 #gallery {
-    padding: 20 0px;
+    padding: 100px 0px;
     clear: both;
     float: left;
+    text-align: center;
 }
 
 #gallery img {
@@ -192,49 +207,67 @@ input[type=submit]:hover {
 }
 
 #testimonials {
-	width: 33em;
+	width: 35em;
 	margin: auto;
+	padding: 100px 0px;
 	clear: both;
 }
 
+#testimonials-head {
+	text-align: center;
+}
+
 #flav-faq {
-	float: left;
+	padding: 100px 0px;
 }
 
 #flavour {
-    padding: 20 0px;
-    width: 50%;
+	text-align: center;
+    padding: 20px 20px;
+    width: 44%;
     float: left;
 }
 
 #flav-img {
-	background-color: #888;	
+	background-color: #dadadd;	
 }
 
 #faq {
-    padding: 20 0px;
-    width: 50%;
+	text-align: center;
+    padding: 20px 20px;
+    width: 44%;
     float: right;
 }
 
 #faq-img {
-	background-color: #888;
+	background-color: #dadadd;
+
 }
 
 #contact {
-	width: 33em;
+	padding: 100px 0px;
+	width: 35em;
 	margin: auto;
 	clear: both;
+}
+
+#contact-head {
+	text-align: center;
+}
+
+#connect {
+	padding: 100px 0px 20px 0px;
+	text-align: center;
 }
 
 /* Add a background color and some padding around the form */
 .container {
 	width: 800px;
 	border-radius: 5px;
-	background-color: #f2f2f2;
+	background-color: #dadadd;
 	padding: 20px;
 	margin: 20px auto; 
-	background-color: #f2f2f2;
+	background-color: #dadadd;
 }
 
 .clearfix:after {
@@ -247,6 +280,5 @@ input[type=submit]:hover {
 }
 
 .button-align {
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 }
