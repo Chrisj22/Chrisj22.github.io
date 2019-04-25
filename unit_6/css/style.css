@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Antic+Slab|Italiana');
 
-/* {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}*/
+}
 
 body {
 	color: #222;
@@ -12,6 +12,10 @@ body {
 	font-size: 18px; /*1em = 18px*/
 	font-weight: 300;
 	line-height: 1.3;
+}
+
+p + p {
+	margin-top: 1em;
 }
 
 header {
@@ -24,6 +28,7 @@ nav {
 	padding: 30px;
     margin: 0 20px;
     float: right;
+    text-align: right;
 }
 
 nav a {
@@ -46,7 +51,7 @@ section {
 
 h1 {
 	font-family: 'Italiana', serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	line-height: 1.3;
 	font-weight: bold;
 }  
@@ -54,13 +59,12 @@ h1 {
 h2, h4 {
 	font-family: 'Italiana', serif;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 3em;
 }
 
 hr {
 	width: 4em;
-    margin-top: 2em;
-    margin-bottom: 2em;
+	margin: 2em auto;
 }
 
 a {
@@ -74,7 +78,14 @@ a:hover {
 }
 
 blockquote {
-  text-indent: -0.8em;
+  text-indent: -0.3em;
+  margin-bottom: 5em;
+}
+
+cite {
+	display: block;
+	text-align: right;
+	color: #a0305d;
 }
 
 button {
@@ -145,12 +156,10 @@ input[type=submit]:hover {
 }
 
 #wrapper{
-	width: 1900px;
+	max-width: 1900px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-#head {}
 
 #intro {
 	background: url(../images/welcome_banner.jpg);
@@ -161,13 +170,15 @@ input[type=submit]:hover {
     padding: 20px 0px 100px 0px;
 	font-size: 1.4em;
 	text-align: right;
-	clear: both;
 	/*font-weight: 600;*/
 }
 
 #intro-text {
-	padding-top: 106px;
-	padding-right: 98px;
+	position: absolute;
+	top: 32%;
+	width: 40em;
+	right: 13em;
+	text-align: left;
 }
 
 #about {
@@ -198,12 +209,14 @@ input[type=submit]:hover {
 #gallery {
     padding: 100px 0px;
     clear: both;
+    line-height: 3em;
     float: left;
     text-align: center;
 }
 
 #gallery img {
-	width: 33.1%;
+	width: 33.33%;
+	float: left;
 }
 
 #testimonials {
@@ -221,27 +234,22 @@ input[type=submit]:hover {
 	padding: 100px 0px;
 }
 
+#flav-faq a {
+	line-height: 3em;
+}
+
 #flavour {
 	text-align: center;
     padding: 20px 20px;
-    width: 44%;
+    width: 50%;
     float: left;
-}
-
-#flav-img {
-	background-color: #dadadd;	
 }
 
 #faq {
 	text-align: center;
     padding: 20px 20px;
-    width: 44%;
+    width: 50%;
     float: right;
-}
-
-#faq-img {
-	background-color: #dadadd;
-
 }
 
 #contact {
@@ -260,8 +268,13 @@ input[type=submit]:hover {
 	text-align: center;
 }
 
-/* Add a background color and some padding around the form */
 .container {
+	background-color: #dadadd;
+	padding: 10px 0px;
+}
+
+/* Add a background color and some padding around the form */
+.form-container {
 	width: 800px;
 	border-radius: 5px;
 	background-color: #dadadd;
@@ -279,6 +292,23 @@ input[type=submit]:hover {
 	clear: both;
 }
 
-.button-align {
-	text-align: center;
+.button {
+  background-color: #888; 
+  color: white;
+  border-radius: 4px;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Italiana', serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.button:hover { 
+  background-color: #666;
+  color: #fff;
 }
