@@ -19,13 +19,11 @@ p + p {
 }
 
 header {
-	padding: 20px;
-    margin: 0 20px;
-    float: left;
+    margin: 0 60px;
 }
 
 header img {
-	padding-right: 700px;
+	float: left;
 }
 
 nav {
@@ -184,7 +182,7 @@ input[type=submit]:hover {
 	position: absolute;
 	top: 26%;
 	width: 39em;
-	right: 13em;
+	right: 15em;
 	text-align: left;
 }
 
@@ -243,6 +241,10 @@ input[type=submit]:hover {
 
 #flav-faq a {
 	line-height: 3em;
+}
+
+#flav-faq img {
+	line-height: none;
 }
 
 #flavour {
