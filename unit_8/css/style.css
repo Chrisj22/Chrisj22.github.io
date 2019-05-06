@@ -19,18 +19,16 @@ p + p {
 }
 
 header {
-	padding: 20px;
-    margin: 0 20px;
-    float: left;
+    margin: 0 3em;
 }
 
 header img {
-	padding-right: 700px;
+	float: left;
 }
 
 nav {
-	padding: 30px;
-    margin: 0 20px;
+	padding: 1.5em;
+    margin: 0 1em;
     float: right;
     text-align: right;
 }
@@ -38,19 +36,19 @@ nav {
 nav a {
 	font-family: 'Italiana', serif;
 	color: #C10464;
-	margin-left: 40px;
+	margin-left: 2em;
 	font-weight: 700;
 	font-size: 1.2em;
-	letter-spacing: 1px;
+	letter-spacing: .05em;
 }
 
 nav a:hover{
-	border-bottom: 1px solid #222;
+	border-bottom: .05em solid #222;
 }
 
 section {
-	padding: 20px;
-	margin: 0 20px;
+	padding: 1em;
+	margin: 0 1em;
 	/*padding: 5em 0;*/
 }
 
@@ -67,10 +65,13 @@ h2, h4 {
 	font-size: 3em;
 }
 
+h2 {
+	text-align: center;
+}
+
 hr {
 	width: 4em;
 	margin: 2em auto;
-	text-align: left;
 }
 
 a {
@@ -98,23 +99,23 @@ cite {
 button {
   background-color: #888; 
   border: none;
-  border-radius: 4px;
+  border-radius: .3em;
   color: white;
-  padding: 12px 20px;
+  padding: .6em 1em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-family: 'Italiana', serif;
-  font-size: 16px;
+  font-size: .9em;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: .15em;
   cursor: pointer;
 }
 
 button a {
 	color: #fff;
 	font-family: 'Italiana', serif;
-  	font-size: 16px;
+  	font-size: .9em;
 }
 
 button:hover { 
@@ -123,8 +124,8 @@ button:hover {
 }
 
 footer {
-    padding: 20px;
-    margin: 0 20px;
+    padding: 1em;
+    margin: 0 1em;
     text-align: center;
 	/*background-color: #cccecd;
 	padding: 20px;*/
@@ -134,13 +135,13 @@ footer {
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   font-family: 'Antic Slab', serif;
-  font-size: 15px;
-  padding: 12px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
+  font-size: .9em;
+  padding: .6em; /* Some padding */  
+  border: .05em solid #ccc; /* Gray border */
+  border-radius: .3em; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
+  margin-top: .3em; /* Add a top margin */
+  margin-bottom: .8em; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
@@ -149,11 +150,12 @@ input[type=submit] {
   background-color: #888;
   color: white;
   font-family: 'Italiana', serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  padding: 12px 20px;
+  font-size: .8em;
+  font-weight: 600;
+  letter-spacing: .15em;
+  padding: 1em 2em;
   border: none;
-  border-radius: 4px;
+  border-radius: .3em;
   cursor: pointer;
 }
 
@@ -174,47 +176,39 @@ input[type=submit]:hover {
 	height: 810px;
 	background-position: center;
 	background-repeat: no-repeat;
-    padding: 20px 0px 100px 0px;
+    padding: 1em 0 5em 0;
 	font-size: 1.4em;
-	text-align: right;
-	/*font-weight: 600;*/
 }
 
 #intro-text {
 	position: absolute;
 	top: 26%;
 	width: 39em;
-	right: 13em;
+	right: 15em;
 	text-align: left;
 }
 
 #about {
-	width: 900px;
+	width: 60em;
 	margin: auto;
-	padding: 100px 0px;
-	/*background-color: #ffe2b8;
-    border: 1px black solid;
-    padding: 200 20px;*/
-}
-
-#about-head {
-	text-align: center;
+	padding: 5em 0;
 }
 
 #about-image {
 	width: 40%;
-	margin: 30 0px;
+	margin: 1.5em auto;
 	float: left;
+	padding: 7em 3em 0 0;
 }
 
 #about-text {
     width: 60%;
-    margin: 30 0px;
+    margin: 1.5em 0;
     float: right;
 }
 
 #gallery {
-    padding: 100px 0px;
+    padding: 5em 0;
     clear: both;
     line-height: 3em;
     float: left;
@@ -229,7 +223,7 @@ input[type=submit]:hover {
 #testimonials {
 	width: 39em;
 	margin: auto;
-	padding: 100px 0px;
+	padding: 5em 0;
 	clear: both;
 }
 
@@ -238,29 +232,34 @@ input[type=submit]:hover {
 }
 
 #flav-faq {
-	padding: 100px 0px;
+	padding: 5em 0;
 }
 
 #flav-faq a {
 	line-height: 3em;
 }
 
+#flav-faq img {
+	display: block;
+	width: 100%;
+}
+
 #flavour {
 	text-align: center;
-    padding: 20px 20px;
+    padding: 1em;
     width: 50%;
     float: left;
 }
 
 #faq {
 	text-align: center;
-    padding: 20px 20px;
+    padding: 1em;
     width: 50%;
     float: right;
 }
 
 #contact {
-	padding: 100px 0px;
+	padding: 5em 0;
 	width: 39em;
 	margin: auto;
 	clear: both;
@@ -275,22 +274,22 @@ input[type=submit]:hover {
 }
 
 #connect {
-	padding: 100px 0px 20px 0px;
+	padding: 5em 0 1em 0;
 	text-align: center;
 }
 
 .container {
 	background-color: #dadadd;
-	padding: 10px 0px;
+	padding: .5em 0;
 }
 
 /* Add a background color and some padding around the form */
 .form-container {
-	width: 800px;
-	border-radius: 5px;
+	width: 40em;
+	border-radius: .25em;
 	background-color: #dadadd;
-	padding: 20px;
-	margin: 20px auto; 
+	padding: 1em;
+	margin: 1em auto; 
 	background-color: #dadadd;
 }
 
@@ -306,14 +305,14 @@ input[type=submit]:hover {
 .button {
   background-color: #888; 
   color: white;
-  border-radius: 4px;
+  border-radius: .2em;
   padding: 1em 2em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-family: 'Italiana', serif;
-  font-size: 16px;
-  letter-spacing: 3px;
+  font-size: .8em;
+  letter-spacing: .15em;
   cursor: pointer;
   margin-top: 2em;
 }
