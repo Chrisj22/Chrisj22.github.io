@@ -164,6 +164,16 @@ input[type=submit]:hover {
   background-color: #666;
 }
 
+label {
+	display: none;
+	font-family: 'Italiana', serif;
+	color: #C10464;
+	margin-left: 2em;
+	font-weight: 700;
+	font-size: 1.2em;
+	letter-spacing: .05em;
+}
+
 #wrapper{
 	max-width: 1900px;
 	margin-left: auto;
@@ -322,7 +332,11 @@ input[type=submit]:hover {
   color: #fff;
 }
 
-@media only screen and (max-width: 2470px) {
+#toggle {
+	display: none;
+}
+
+@media only screen and (min-width: 2131px) and (max-width: 2470px) {
 	#intro-text {
 		width: 35em;
 		right: 10em;
@@ -331,18 +345,74 @@ input[type=submit]:hover {
 }
 
 
-@media only screen and (max-width: 2130px) {
+@media only screen and (min-width: 1811px) and (max-width: 2130px) {
 	#intro-text {
-		/*width: 28em;*/
+		width: 28em;
 		right: 10em;
 	}
 
 }
 
-@media only screen and (max-width: 1810px) {
+@media only screen and (min-width: 1411px) and (max-width: 1810px) {
 	#intro-text {
 		width: 26em;
 		right: 5em;
 	}
 
+}
+
+@media only screen and (min-width: 1240px) and (max-width: 1410px) {
+	#intro-text {
+		width: 18em;
+		right: 5em;
+	}
+
+
+	h4 {
+		font-size: 2em;
+		padding-top: .75em;
+	}
+
+	/*h1 {
+	font-size: 1em;
+	}*/ 
+
+}
+
+/*@media only screen and (min-width: 1091px) and (max-width: 1239px) {
+	nav a {
+		padding: 10px;
+		margin-left: 1em;
+		background-color: yellow;
+	}
+}*/
+
+@media only screen and (min-width: 1px) and (max-width: 1000px) {
+	#intro-text {
+		width: 18em;
+		right: 5em;
+	}
+
+	h4 {
+		font-size: 2em;
+		padding-top: .75em;
+	}
+
+	nav {
+		display: none;
+	}
+
+	nav a {
+		display: block;
+		padding: 15px;
+		margin: 5px;
+	}
+
+	label {
+		display: block;
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
 }
