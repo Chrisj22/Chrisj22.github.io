@@ -404,11 +404,32 @@ input[type=submit]:hover {
 	
 	header img {
 		float: right;
+		padding-top: 3em;
+	}
+
+	#intro {
+		background: url(../images/banner2_1200.jpg);
+		height: 540px;
+		background-position: center;
+		background-repeat: no-repeat;
+		/*width: 1802px;
+		height: 540px;
+		background-position: center;
+		background-repeat: no-repeat;
+	    padding: 1em 0 5em 0;
+		font-size: 1.4em;*/
 	}
 
 	#intro-text {
 		width: 18em;
 		right: 5em;
+		position: static;
+		padding-left: 2em;
+	}
+
+	h1 {
+		/*font-size: 1.2em;*/
+		display: none;
 	}
 
 	h4 {
@@ -476,15 +497,32 @@ input[type=submit]:hover {
 	
 	header img {
 		float: right;
+		padding-top: 3em;
+	}
+
+	#intro {
+		background: url(../images/banner2_1200.jpg);
+		height: 540px;
+		background-position: center;
+		background-repeat: no-repeat;
+		/*width: 1802px;
+		height: 810px;
+		background-position: center;
+		background-repeat: no-repeat;
+	    padding: 1em 0 5em 0;
+		font-size: 1.4em;*/
 	}
 
 	#intro-text {
 		width: 14em;
 		right: 4em;
+		position: static;
+		padding-left: 2em;
 	}
 
 	h1 {
-		font-size: 1.4em;
+		/*font-size: 1.2em;*/
+		display: none;
 	}
 
 	h4 {
@@ -551,15 +589,32 @@ input[type=submit]:hover {
 	
 	header img {
 		float: right;
+		padding-top: 3em;
+	}
+
+	#intro {
+		background: url(../images/banner2_1200.jpg);
+		height: 540px;
+		background-position: center;
+		background-repeat: no-repeat;
+		/*width: 1802px;
+		height: 810px;
+		background-position: center;
+		background-repeat: no-repeat;
+	    padding: 1em 0 5em 0;
+		font-size: 1.4em;*/
 	}
 
 	#intro-text {
 		width: 13em;
 		right: 4em;
+		position: static;
+		padding-left: 2em;
 	}
 
 	h1 {
-		font-size: 1.2em;
+		/*font-size: 1.2em;*/
+		display: none;
 	}
 	
 	h2 {
