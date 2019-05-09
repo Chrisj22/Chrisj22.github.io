@@ -344,7 +344,6 @@ label {
 
 }
 
-
 @media only screen and (min-width: 1811px) and (max-width: 2130px) {
 	#intro-text {
 		width: 28em;
@@ -379,15 +378,12 @@ label {
 
 }
 
-/*@media only screen and (min-width: 1091px) and (max-width: 1239px) {
-	nav a {
-		padding: 10px;
-		margin-left: 1em;
-		background-color: yellow;
+@media only screen and (min-width: 1191px) and (max-width: 1239px) {
+	
+	header img {
+		width: 10%;
 	}
-}*/
 
-@media only screen and (min-width: 1px) and (max-width: 1000px) {
 	#intro-text {
 		width: 18em;
 		right: 5em;
@@ -395,6 +391,102 @@ label {
 
 	h4 {
 		font-size: 2em;
+		padding-top: .75em;
+	}
+	
+	nav a {
+		padding: .5em;
+		margin: .75em;
+	}
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1189px) {
+	
+	header img {
+		float: right;
+	}
+
+	#intro-text {
+		width: 18em;
+		right: 5em;
+	}
+
+	h4 {
+		font-size: 2em;
+		padding-top: .75em;
+	}
+
+	nav {
+		display: none;
+	}
+
+	nav a {
+		display: block;
+		padding: 15px;
+		margin: 5px;
+	}
+
+	label {
+		display: block;
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 949px) {
+	
+	header img {
+		float: right;
+	}
+
+	#intro-text {
+		width: 18em;
+		right: 5em;
+	}
+
+	h4 {
+		font-size: 2em;
+		padding-top: .75em;
+	}
+
+	nav {
+		display: none;
+	}
+
+	nav a {
+		display: block;
+		padding: 15px;
+		margin: 5px;
+	}
+
+	label {
+		display: block;
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1px) and (max-width: 749px) {
+	
+	header img {
+		float: right;
+	}
+
+	#intro-text {
+		width: 13em;
+		right: 4em;
+	}
+
+	h1 {
+		font-size: 1.2em;
+	}
+
+	h4 {
+		font-size: 1.5em;
 		padding-top: .75em;
 	}
 
