@@ -164,16 +164,6 @@ input[type=submit]:hover {
   background-color: #666;
 }
 
-label {
-	display: none;
-	font-family: 'Italiana', serif;
-	color: #C10464;
-	margin-left: 2em;
-	font-weight: 700;
-	font-size: 1.2em;
-	letter-spacing: .05em;
-}
-
 #wrapper{
 	max-width: 1900px;
 	margin-left: auto;
@@ -336,6 +326,16 @@ label {
 	display: none;
 }
 
+#menu-label {
+	display: none;
+	font-family: 'Italiana', serif;
+	color: #C10464;
+	margin-left: 2em;
+	font-weight: 700;
+	font-size: 1.2em;
+	letter-spacing: .05em;
+}
+
 @media only screen and (min-width: 2131px) and (max-width: 2470px) {
 	#intro-text {
 		width: 35em;
@@ -426,7 +426,7 @@ label {
 		margin: 5px;
 	}
 
-	label {
+	#menu-label {
 		display: block;
 	}
 
@@ -434,9 +434,15 @@ label {
 		display: block;
 	}
 
+	#about, #gallery, #testimonials, #flav-faq, #contact {
+		padding: 3em 0 ;
+	}
+
 	#about-image {
 		float: none;
 		width: 60%;
+		padding: 0px;
+		display: block;
 	}
 
 	#about-text {
@@ -491,7 +497,7 @@ label {
 		margin: 5px;
 	}
 
-	label {
+	#menu-label {
 		display: block;
 	}
 
@@ -499,9 +505,15 @@ label {
 		display: block;
 	}
 
+	#about, #gallery, #testimonials, #flav-faq, #contact {
+		padding: 3em 0 ;
+	}
+
 	#about-image {
 		float: none;
 		width: 60%;
+		padding: 0px;
+		display: block;
 	}
 
 	#about-text {
@@ -539,7 +551,11 @@ label {
 	h1 {
 		font-size: 1.2em;
 	}
-
+	
+	h2 {
+		font-size: 2em;
+	}
+	
 	h4 {
 		font-size: 1.5em;
 		padding-top: .75em;
@@ -555,7 +571,7 @@ label {
 		margin: 5px;
 	}
 
-	label {
+	#menu-label {
 		display: block;
 	}
 
@@ -563,9 +579,19 @@ label {
 		display: block;
 	}
 
+	#about, #gallery, #testimonials, #flav-faq, #contact {
+		padding: 3em 2em;
+	}
+
+	#about {
+	    width: 100%;
+	}
+
 	#about-image {
 		float: none;
 		width: 60%;
+		padding: 0px;
+		display: block;
 	}
 
 	#about-text {
@@ -579,7 +605,7 @@ label {
 	}
 
 	#testimonials {
-        margin: 0 2em;
+        width: 100%;
 	}
 
 	#flavour {
@@ -589,6 +615,14 @@ label {
 
 	#faq {
 		float: none;
+		width: 100%;
+	}
+
+	#flav-faq a {
+    	line-height: 1.5em;
+	}
+
+	#contact {
 		width: 100%;
 	}
 }
