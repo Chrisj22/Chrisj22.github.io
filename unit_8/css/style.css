@@ -434,8 +434,13 @@ input[type=submit]:hover {
 		display: block;
 	}
 
-	#about, #gallery, #testimonials, #flav-faq, #contact {
+	#gallery, #testimonials, #flav-faq, #contact {
 		padding: 3em 0 ;
+	}
+
+	#about {
+	    width: 100%;
+	    padding: 3em 2em;
 	}
 
 	#about-image {
@@ -505,8 +510,13 @@ input[type=submit]:hover {
 		display: block;
 	}
 
-	#about, #gallery, #testimonials, #flav-faq, #contact {
+	#gallery, #testimonials, #flav-faq, #contact {
 		padding: 3em 0 ;
+	}
+
+	#about {
+	    width: 100%;
+	    padding: 3em 2em;
 	}
 
 	#about-image {
@@ -571,6 +581,14 @@ input[type=submit]:hover {
 		margin: 5px;
 	}
 
+	body {
+		font-size: 1.05em;
+	}
+
+	hr {
+	   margin: 1.5em auto;
+	}
+
 	#menu-label {
 		display: block;
 	}
@@ -597,11 +615,16 @@ input[type=submit]:hover {
 	#about-text {
 	    float: none;
 	    width: 100%;
+	    margin: 1.5em 0 0 0;
 	}
 	
 	#gallery img {
 		float: none;
 		width: 100%;
+	}
+
+	#gallery {
+		line-height: 2em;
 	}
 
 	#testimonials {
@@ -619,10 +642,14 @@ input[type=submit]:hover {
 	}
 
 	#flav-faq a {
-    	line-height: 1.5em;
+    	line-height: 1.8em;
 	}
 
 	#contact {
+		width: 100%;
+	}
+
+	.form-container {
 		width: 100%;
 	}
 }
