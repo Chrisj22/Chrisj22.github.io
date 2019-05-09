@@ -468,12 +468,16 @@ label {
 	}
 
 	#intro-text {
-		width: 18em;
-		right: 5em;
+		width: 14em;
+		right: 4em;
+	}
+
+	h1 {
+		font-size: 1.4em;
 	}
 
 	h4 {
-		font-size: 2em;
+		font-size: 1.7em;
 		padding-top: .75em;
 	}
 
