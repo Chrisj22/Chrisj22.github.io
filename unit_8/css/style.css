@@ -436,12 +436,12 @@ label {
 
 	#about-image {
 		float: none;
-		width: 60%
+		width: 60%;
 	}
 
 	#about-text {
 	    float: none;
-	    width: 100%
+	    width: 100%;
 	}
 	
 	#gallery img {
@@ -497,12 +497,12 @@ label {
 
 	#about-image {
 		float: none;
-		width: 60%
+		width: 60%;
 	}
 
 	#about-text {
 	    float: none;
-	    width: 100%
+	    width: 100%;
 	}
 	
 	#gallery img {
@@ -561,17 +561,21 @@ label {
 
 	#about-image {
 		float: none;
-		width: 60%
+		width: 60%;
 	}
 
 	#about-text {
 	    float: none;
-	    width: 100%
+	    width: 100%;
 	}
 	
 	#gallery img {
 		float: none;
 		width: 100%;
+	}
+
+	#testimonials {
+        margin: 0 2em;
 	}
 
 	#flavour {
