@@ -433,6 +433,32 @@ label {
 	#toggle:checked + nav {
 		display: block;
 	}
+
+	#about-image {
+		float: none;
+		width: 60%
+	}
+
+	#about-text {
+	    float: none;
+	    width: 100%
+	}
+	
+	#gallery img {
+		float: none;
+		width: 100%;
+	}
+
+	#flavour {
+		float: none;
+		width: 100%;
+	}
+
+	#faq {
+		float: none;
+		width: 100%;
+	}
+
 }
 
 @media only screen and (min-width: 750px) and (max-width: 949px) {
@@ -467,6 +493,31 @@ label {
 
 	#toggle:checked + nav {
 		display: block;
+	}
+
+	#about-image {
+		float: none;
+		width: 60%
+	}
+
+	#about-text {
+	    float: none;
+	    width: 100%
+	}
+	
+	#gallery img {
+		float: none;
+		width: 100%;
+	}
+
+	#flavour {
+		float: none;
+		width: 100%;
+	}
+
+	#faq {
+		float: none;
+		width: 100%;
 	}
 }
 
@@ -506,5 +557,30 @@ label {
 
 	#toggle:checked + nav {
 		display: block;
+	}
+
+	#about-image {
+		float: none;
+		width: 60%
+	}
+
+	#about-text {
+	    float: none;
+	    width: 100%
+	}
+	
+	#gallery img {
+		float: none;
+		width: 100%;
+	}
+
+	#flavour {
+		float: none;
+		width: 100%;
+	}
+
+	#faq {
+		float: none;
+		width: 100%;
 	}
 }
