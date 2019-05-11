@@ -378,10 +378,11 @@ input[type=submit]:hover {
 
 }
 
-@media only screen and (min-width: 1191px) and (max-width: 1239px) {
+@media only screen and (min-width: 950px) and (max-width: 1239px) {
 	
 	header img {
-		width: 10%;
+		width: 12%;
+		float: none;
 	}
 
 	#intro-text {
@@ -394,115 +395,27 @@ input[type=submit]:hover {
 		padding-top: .75em;
 	}
 	
-	nav a {
-		padding: .5em;
-		margin: .75em;
-	}
-}
-
-@media only screen and (min-width: 950px) and (max-width: 1189px) {
-	
-	header img {
-		float: right;
-		padding-top: 3em;
-	}
-
-	#intro {
-		background: url(../images/banner2_1200.jpg);
-		height: 540px;
-		background-position: center;
-		background-repeat: no-repeat;
-		/*width: 1802px;
-		height: 540px;
-		background-position: center;
-		background-repeat: no-repeat;
-	    padding: 1em 0 5em 0;
-		font-size: 1.4em;*/
-	}
-
-	#intro-text {
-		width: 18em;
-		right: 5em;
-		position: static;
-		padding-left: 2em;
-	}
-
-	h1 {
-		/*font-size: 1.2em;*/
-		display: none;
-	}
-
-	h4 {
-		font-size: 2em;
-		padding-top: .75em;
-	}
-
 	nav {
-		display: none;
+	    padding: 1.5em 0;
+	    margin: 0;
 	}
 
 	nav a {
-		display: block;
-		padding: 15px;
-		margin: 5px;
+		padding: 1em;
+		margin-left: 0;
 	}
-
-	#menu-label {
-		display: block;
-	}
-
-	#toggle:checked + nav {
-		display: block;
-	}
-
-	#gallery, #testimonials, #flav-faq, #contact {
-		padding: 3em 0 ;
-	}
-
-	#about {
-	    width: 100%;
-	    padding: 3em 2em;
-	}
-
-	#about-image {
-		float: none;
-		width: 60%;
-		padding: 0px;
-		display: block;
-	}
-
-	#about-text {
-	    float: none;
-	    width: 100%;
-	}
-	
-	#gallery img {
-		float: none;
-		width: 100%;
-	}
-
-	#flavour {
-		float: none;
-		width: 100%;
-	}
-
-	#faq {
-		float: none;
-		width: 100%;
-	}
-
 }
 
-@media only screen and (min-width: 750px) and (max-width: 949px) {
+@media only screen and (min-width: 680px) and (max-width: 949px) {
 	
 	header img {
-		float: right;
-		padding-top: 3em;
+		width: 6em;
+		float: none;
 	}
 
 	#intro {
-		background: url(../images/banner2_1200.jpg);
-		height: 540px;
+		background: url(../images/welcome_banner884_1.jpg);
+		height: 650px;
 		background-position: center;
 		background-repeat: no-repeat;
 		/*width: 1802px;
@@ -542,6 +455,8 @@ input[type=submit]:hover {
 
 	#menu-label {
 		display: block;
+		float: right;
+		padding-top: 2em;
 	}
 
 	#toggle:checked + nav {
@@ -585,16 +500,16 @@ input[type=submit]:hover {
 	}
 }
 
-@media only screen and (min-width: 1px) and (max-width: 749px) {
+@media only screen and (min-width: 1px) and (max-width: 679px) {
 	
 	header img {
-		float: right;
-		padding-top: 3em;
+		width: 6em;
+		float: none;
 	}
 
 	#intro {
-		background: url(../images/banner2_1200.jpg);
-		height: 540px;
+		background: url(../images/welcome_banner884_1.jpg);
+		height: 650px;
 		background-position: center;
 		background-repeat: no-repeat;
 		/*width: 1802px;
@@ -622,7 +537,7 @@ input[type=submit]:hover {
 	}
 	
 	h4 {
-		font-size: 1.5em;
+		font-size: 1.6em;
 		padding-top: .75em;
 	}
 
@@ -646,6 +561,8 @@ input[type=submit]:hover {
 
 	#menu-label {
 		display: block;
+		float: right;
+		padding-top: 2em;
 	}
 
 	#toggle:checked + nav {
