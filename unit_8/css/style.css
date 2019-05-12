@@ -49,7 +49,6 @@ nav a:hover{
 section {
 	padding: 1em;
 	margin: 0 1em;
-	/*padding: 5em 0;*/
 }
 
 h1 {
@@ -81,12 +80,12 @@ a {
 }
 
 a:hover { 
-  color: black;
+ 	color: black;
 }
 
 blockquote {
-  text-indent: -0.3em;
-  margin-bottom: 5em;
+ 	text-indent: -0.3em;
+ 	margin-bottom: 5em;
 }
 
 cite {
@@ -97,19 +96,19 @@ cite {
 }
 
 button {
-  background-color: #888; 
-  border: none;
-  border-radius: .3em;
-  color: white;
-  padding: .6em 1em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'Italiana', serif;
-  font-size: .9em;
-  text-transform: uppercase;
-  letter-spacing: .15em;
-  cursor: pointer;
+	background-color: #888; 
+	border: none;
+	border-radius: .3em;
+	color: white;
+	padding: .6em 1em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Italiana', serif;
+	font-size: .9em;
+	text-transform: uppercase;
+	letter-spacing: .15em;
+	cursor: pointer;
 }
 
 button a {
@@ -119,49 +118,47 @@ button a {
 }
 
 button:hover { 
-  background-color: #666;
-  color: #fff;
+	background-color: #666;
+	color: #fff;
 }
 
 footer {
     padding: 1em;
     margin: 0 1em;
     text-align: center;
-	/*background-color: #cccecd;
-	padding: 20px;*/
 }
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  font-family: 'Antic Slab', serif;
-  font-size: .9em;
-  padding: .6em; /* Some padding */  
-  border: .05em solid #ccc; /* Gray border */
-  border-radius: .3em; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: .3em; /* Add a top margin */
-  margin-bottom: .8em; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+	width: 100%; /* Full width */
+	font-family: 'Antic Slab', serif;
+	font-size: .9em;
+	padding: .6em; /* Some padding */  
+	border: .05em solid #ccc; /* Gray border */
+	border-radius: .3em; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: .3em; /* Add a top margin */
+	margin-bottom: .8em; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #888;
-  color: white;
-  font-family: 'Italiana', serif;
-  font-size: .8em;
-  font-weight: 600;
-  letter-spacing: .15em;
-  padding: 1em 2em;
-  border: none;
-  border-radius: .3em;
-  cursor: pointer;
+	background-color: #888;
+	color: white;
+	font-family: 'Italiana', serif;
+	font-size: .8em;
+	font-weight: 600;
+	letter-spacing: .15em;
+	padding: 1em 2em;
+	border: none;
+	border-radius: .3em;
+	cursor: pointer;
 }
 
 /* When moving the mouse over the submit button, add a darker color */
 input[type=submit]:hover {
-  background-color: #666;
+	background-color: #666;
 }
 
 #wrapper{
@@ -172,7 +169,6 @@ input[type=submit]:hover {
 
 #intro {
 	background: url(../images/welcome_banner.jpg);
-	/*width: 1802px;*/
 	height: 810px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -212,7 +208,6 @@ input[type=submit]:hover {
     clear: both;
     line-height: 3em;
     float: left;
-    text-align: center;
 }
 
 #gallery img {
@@ -225,10 +220,6 @@ input[type=submit]:hover {
 	margin: auto;
 	padding: 5em 0;
 	clear: both;
-}
-
-#testimonials-head {
-	text-align: center;
 }
 
 #flav-faq {
@@ -245,15 +236,13 @@ input[type=submit]:hover {
 }
 
 #flavour {
-	text-align: center;
     padding: 1em;
     width: 50%;
     float: left;
 }
 
 #faq {
-	text-align: center;
-    padding: 1em;
+	padding: 1em;
     width: 50%;
     float: right;
 }
@@ -265,17 +254,12 @@ input[type=submit]:hover {
 	clear: both;
 }
 
-#contact-head {
-	text-align: center;
-}
-
-#enquiry {
+#gallery, #testimonials-head, #flavour, #faq, #contact-head, #enquiry, #connect {
 	text-align: center;
 }
 
 #connect {
 	padding: 5em 0 1em 0;
-	text-align: center;
 }
 
 .container {
@@ -303,18 +287,18 @@ input[type=submit]:hover {
 }
 
 .button {
-  background-color: #888; 
-  color: white;
-  border-radius: .2em;
-  padding: 1em 2em;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'Italiana', serif;
-  font-size: .8em;
-  letter-spacing: .15em;
-  cursor: pointer;
-  margin-top: 2em;
+	background-color: #888; 
+	color: white;
+	border-radius: .2em;
+	padding: 1em 2em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Italiana', serif;
+	font-size: .8em;
+	letter-spacing: .15em;
+	cursor: pointer;
+	margin-top: 2em;
 }
 
 .button:hover { 
@@ -341,7 +325,6 @@ input[type=submit]:hover {
 		width: 35em;
 		right: 10em;
 	}
-
 }
 
 @media only screen and (min-width: 1811px) and (max-width: 2130px) {
@@ -349,7 +332,6 @@ input[type=submit]:hover {
 		width: 28em;
 		right: 10em;
 	}
-
 }
 
 @media only screen and (min-width: 1411px) and (max-width: 1810px) {
@@ -357,7 +339,6 @@ input[type=submit]:hover {
 		width: 26em;
 		right: 5em;
 	}
-
 }
 
 @media only screen and (min-width: 1240px) and (max-width: 1410px) {
@@ -366,16 +347,10 @@ input[type=submit]:hover {
 		right: 5em;
 	}
 
-
 	h4 {
 		font-size: 2em;
 		padding-top: .75em;
 	}
-
-	/*h1 {
-	font-size: 1em;
-	}*/ 
-
 }
 
 @media only screen and (min-width: 950px) and (max-width: 1239px) {
@@ -383,11 +358,6 @@ input[type=submit]:hover {
 	header img {
 		width: 12%;
 		float: none;
-	}
-
-	#intro-text {
-		width: 18em;
-		right: 5em;
 	}
 
 	h4 {
@@ -404,6 +374,11 @@ input[type=submit]:hover {
 		padding: 1em;
 		margin-left: 0;
 	}
+
+	#intro-text {
+		width: 18em;
+		right: 5em;
+	}
 }
 
 @media only screen and (min-width: 680px) and (max-width: 949px) {
@@ -413,17 +388,26 @@ input[type=submit]:hover {
 		float: none;
 	}
 
+	h1, nav {
+		display: none;
+	}
+
+	h4 {
+		font-size: 1.7em;
+		padding-top: .75em;
+	}
+
+	nav a {
+		display: block;
+		padding: 15px;
+		margin: 5px;
+	}
+
 	#intro {
 		background: url(../images/welcome_banner884_1.jpg);
 		height: 650px;
 		background-position: center;
 		background-repeat: no-repeat;
-		/*width: 1802px;
-		height: 810px;
-		background-position: center;
-		background-repeat: no-repeat;
-	    padding: 1em 0 5em 0;
-		font-size: 1.4em;*/
 	}
 
 	#intro-text {
@@ -433,24 +417,22 @@ input[type=submit]:hover {
 		padding-left: 2em;
 	}
 
-	h1 {
-		/*font-size: 1.2em;*/
-		display: none;
+	#about, #gallery, #testimonials, #flav-faq, #contact, #enquiry, #connect {
+		padding: 3em 2em;
+		width: 100%;
+		margin: 0;
 	}
 
-	h4 {
-		font-size: 1.7em;
-		padding-top: .75em;
-	}
-
-	nav {
-		display: none;
-	}
-
-	nav a {
+	#about-image {
+		float: none;
+		width: 60%;
+		padding: 0px;
 		display: block;
-		padding: 15px;
-		margin: 5px;
+	}
+
+	#about-text, #gallery img, #flavour, #faq {
+	    float: none;
+	    width: 100%;
 	}
 
 	#menu-label {
@@ -462,42 +444,6 @@ input[type=submit]:hover {
 	#toggle:checked + nav {
 		display: block;
 	}
-
-	#gallery, #testimonials, #flav-faq, #contact {
-		padding: 3em 0 ;
-	}
-
-	#about {
-	    width: 100%;
-	    padding: 3em 2em;
-	}
-
-	#about-image {
-		float: none;
-		width: 60%;
-		padding: 0px;
-		display: block;
-	}
-
-	#about-text {
-	    float: none;
-	    width: 100%;
-	}
-	
-	#gallery img {
-		float: none;
-		width: 100%;
-	}
-
-	#flavour {
-		float: none;
-		width: 100%;
-	}
-
-	#faq {
-		float: none;
-		width: 100%;
-	}
 }
 
 @media only screen and (min-width: 1px) and (max-width: 679px) {
@@ -507,28 +453,7 @@ input[type=submit]:hover {
 		float: none;
 	}
 
-	#intro {
-		background: url(../images/welcome_banner884_1.jpg);
-		height: 650px;
-		background-position: center;
-		background-repeat: no-repeat;
-		/*width: 1802px;
-		height: 810px;
-		background-position: center;
-		background-repeat: no-repeat;
-	    padding: 1em 0 5em 0;
-		font-size: 1.4em;*/
-	}
-
-	#intro-text {
-		width: 13em;
-		right: 4em;
-		position: static;
-		padding-left: 2em;
-	}
-
-	h1 {
-		/*font-size: 1.2em;*/
+	h1, nav {
 		display: none;
 	}
 	
@@ -539,10 +464,6 @@ input[type=submit]:hover {
 	h4 {
 		font-size: 1.6em;
 		padding-top: .75em;
-	}
-
-	nav {
-		display: none;
 	}
 
 	nav a {
@@ -559,22 +480,24 @@ input[type=submit]:hover {
 	   margin: 1.5em auto;
 	}
 
-	#menu-label {
-		display: block;
-		float: right;
-		padding-top: 2em;
+	#intro {
+		background: url(../images/welcome_banner884_1.jpg);
+		height: 650px;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 
-	#toggle:checked + nav {
-		display: block;
+	#intro-text {
+		width: 13em;
+		right: 4em;
+		position: static;
+		padding-left: 2em;
 	}
 
 	#about, #gallery, #testimonials, #flav-faq, #contact {
 		padding: 3em 2em;
-	}
-
-	#about {
-	    width: 100%;
+		width: 100%;
+		margin: 0;
 	}
 
 	#about-image {
@@ -599,29 +522,36 @@ input[type=submit]:hover {
 		line-height: 2em;
 	}
 
-	#testimonials {
-        width: 100%;
+	#flav-faq.clearfix {
+		margin: 0;
 	}
 
-	#flavour {
+	#flavour, #faq {
 		float: none;
 		width: 100%;
-	}
-
-	#faq {
-		float: none;
-		width: 100%;
+		padding: 3em 0;
 	}
 
 	#flav-faq a {
     	line-height: 1.8em;
 	}
 
-	#contact {
-		width: 100%;
+	#enquiry {
+		padding: 3em 2em 0 2em;
+		margin: 0;
 	}
 
 	.form-container {
 		width: 100%;
+	}
+
+	#menu-label {
+		display: block;
+		float: right;
+		padding-top: 2em;
+	}
+
+	#toggle:checked + nav {
+		display: block;
 	}
 }
