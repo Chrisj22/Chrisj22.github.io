@@ -85,7 +85,7 @@ a:hover {
 
 blockquote {
  	text-indent: -0.3em;
- 	margin-bottom: 5em;
+ 	margin-bottom: 3em;
 }
 
 cite {
@@ -255,7 +255,7 @@ input[type=submit]:hover {
 	clear: both;
 }
 
-#gallery, #testimonials-head, #flavour, #faq, #contact-head, #enquiry, #connect {
+#gallery, #testimonials-head, #flavour, #faq, #contact-head, #connect {
 	text-align: center;
 }
 
@@ -437,7 +437,7 @@ input[type=submit]:hover {
 		padding-left: 2em;
 	}
 
-	#about, #gallery, #testimonials, #flav-faq, #contact, #enquiry, #connect {
+	#about, #gallery, #testimonials, #flav-faq, #contact, #connect {
 		padding: 3em 2em;
 		width: 100%;
 		margin: 0;
@@ -463,6 +463,9 @@ input[type=submit]:hover {
 
 	#toggle:checked + nav {
 		display: block;
+		position: relative;
+	    right: -131px;
+	    top: 80px;
 	}
 }
 
@@ -526,11 +529,6 @@ input[type=submit]:hover {
     	line-height: 1.8em;
 	}
 
-	#enquiry {
-		padding: 3em 2em 0 2em;
-		margin: 0;
-	}
-
 	.form-container {
 		width: 100%;
 	}
@@ -542,7 +540,7 @@ input[type=submit]:hover {
 	}
 
 	#toggle:checked + nav {
-		display: block;
+		right: -123px;
 	}
 }
 
@@ -568,5 +566,4 @@ input[type=submit]:hover {
 	
 	#intro-text {
 		width: 8em;
-		padding-left: 1em;
 }
