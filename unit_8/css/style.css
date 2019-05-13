@@ -501,9 +501,8 @@ input[type=submit]:hover {
 		width: 13em;
 	}
 
-	#about, #gallery, #testimonials, #flav-faq, #contact {
+	#about, #gallery, #testimonials {
 		padding: 3em 2em;
-		width: 100%;
 		margin: 0;
 	}
 
@@ -515,8 +514,10 @@ input[type=submit]:hover {
 		line-height: 2em;
 	}
 
-	#flav-faq.clearfix {
+	#flav-faq {
 		margin: 0;
+		width: 100%;
+		padding: 0 2em;
 	}
 
 	#flavour, #faq {
@@ -527,6 +528,11 @@ input[type=submit]:hover {
 
 	#flav-faq a {
     	line-height: 1.8em;
+	}
+
+	#contact {
+		padding: 3em 2em 6em 2em;
+		margin: 0;
 	}
 
 	.form-container {
@@ -560,10 +566,20 @@ input[type=submit]:hover {
 	#intro-text {
 		width: 9em;
 		padding-left: 1em;
+	}
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 414px) {
 	
 	#intro-text {
-		width: 8em;
+		width: 6em;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	
+	#toggle:checked + nav {
+		right: -34px;
+		top: -14px;
+	}
 }
