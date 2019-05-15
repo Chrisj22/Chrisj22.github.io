@@ -68,6 +68,11 @@ h2 {
 	text-align: center;
 }
 
+h5 {
+   font-size: 1.1em;
+   text-align: left;
+}
+
 hr {
 	width: 4em;
 	margin: 2em auto;
@@ -93,6 +98,11 @@ cite {
 	text-align: right;
 	color: #C10464;
 	font-weight: 500;
+}
+
+ul {
+	margin-left: 3em;
+    line-height: 2em;
 }
 
 button {
@@ -321,16 +331,58 @@ input[type=submit]:hover {
 	letter-spacing: .05em;
 }
 
+.aboutclass #about {
+	padding: 10em 0;
+}
+
+.galleryclass footer {
+	clear: both;
+}
+
+.flavourclass footer {
+	clear: both;
+}
+
+.faqclass footer {
+	clear: both;
+}
+
+.faqclass #faq {
+	float: none;
+	width: 100%;
+	text-align: left;
+	padding: 10em 3em
+}
+
+.flavourclass #flavour {
+	float: none;
+	width: 100%;
+	text-align: left;
+	padding: 10em 5em
+}
+
+.flavourclass #flavour img {
+	float: right;
+}
+
 @media only screen and (min-width: 1811px) {
 	#intro-text {
 		width: 28em;
 		right: 10em;
+	}
+
+	p, blockquote, label, li {
+		font-size: 1.1em;
 	}
 }
 
 @media only screen and (min-width: 2130px) {
 	#intro-text {
 		width: 35em;
+	}
+
+	p, blockquote, label, li {
+		font-size: 1.2em;
 	}
 }
 
