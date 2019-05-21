@@ -509,8 +509,8 @@ input[type=submit]:hover {
 
 	#toggle:checked + nav {
 		display: block;
-		position: relative;
-	    right: -131px;
+		position: absolute;
+	    right: 0px;
 	    top: 80px;
 	}
 }
